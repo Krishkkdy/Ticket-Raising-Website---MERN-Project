@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://Krishkkdy:Smitkkdy%4012@cluster0.ic1ou.mongodb.net/', {
+mongoose.connect('mongodb+srv://Krishkkdy:smitkkdy12@cluster0.ic1ou.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
